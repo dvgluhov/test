@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background-color: darkkhaki;
+    /* background-image: url("fonbg.png"); */
+    /* background-repeat: space; */
+}
+dd{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dt{
+    font-weight: bold;
+    color: chartreuse;
+}
+ul{
+    list-style-position: inside;
+    list-style: none;
+  
+}
+
+ul li {
+    color: blue;
+}
+ul li::before{
+content: "+";
+}
+
+.summer a, .autum a, .winter a, .spring a{
+   cursor: pointer;
+
+}
+
+
+
+.winter a:visited, .autum a:visited, .summer a:visited, .spring a:visited{
+    color: rgb(110, 119, 110);
+}
+
+.summer a:hover, .autum a:hover, .winter a:hover, .spring a:hover{
+   color: maroon;
+   cursor: pointer;
+
+}
+
+
+.winter a:focus, .autum a:focus, .summer a:focus, .spring a:focus{
+    color: orange;
+}
+img{
+    width: 50%;
+}
+blockquote{
+   
+    background-repeat: space;
+    margin-left: 0%;
+}
+.wrap{
+  background-image: url("fonbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

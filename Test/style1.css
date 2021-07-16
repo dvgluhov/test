@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flb{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(95, 109, 156);
+}
+.kv{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-color: brown;
+    top: 0;
+    left: 0;
+}
+.kv1{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(127, 20, 228);
+    bottom: 0;
+    left: 0;
+
+
+}
+.kv2{
+position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(155, 230, 18);
+    bottom: 0;
+    right: 0;
+
+}
+.kv3{
+position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(18, 86, 212);
+    right: 0;
+    top: 0;
+
+}
+
+
+
+.kv4{
+position: relative;
+margin: auto;
+    width: 90%;
+    height: 80%;
+    background-color: gold;
+      
+
+}
